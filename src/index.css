@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,49 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar{
+  padding: 5px;
+  background-color:orange;
+  font-size:8px;
+}
+
+
+
+.card{
+  box-shadow: 0 0 5px black;
+  width: 450px;
+ margin: 30px;
+  padding:3px;
+  text-align: center;
+  background-color:red;
+  color:black;
+}
+
+.card2{
+    box-shadow: 0 0 5px black;
+    width: 450px;
+   margin: 30px;
+    padding:1.5px;
+    text-align:center;
+    background-color:gold;
+    color:white;
+}
+
+.rolName{
+  box-shadow: 0 0 5px black;
+  width: 450px;
+ margin: 30px;
+  padding:1.5px;
+  text-align:center;
+  background-color:gold;
+  color:white;
+
+}
+ 
+.list-group-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center  ;
 }

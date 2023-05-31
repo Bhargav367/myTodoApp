@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import MessageCard from './MessageCard'
 
-function App() {
+import Student2 from './Student2'
+import Teacherr from './Teacherr'
+import Digitalwatch from './Digitalwatch'
+import Tod from './Tod'
+
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      {/* <Teacherr/> */}
+      {/* <Digitalwatch/> */}
+      <Tod/>
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
